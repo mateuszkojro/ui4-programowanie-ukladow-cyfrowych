@@ -1,0 +1,19 @@
+Running: C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/mateu/bramka/test_isim_beh.exe -prj C:/Users/mateu/bramka/test_beh.prj work.test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/mateu/bramka/bramka_NAND.vhd" into library work
+Parsing VHDL file "C:/Users/mateu/bramka/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity bramka_NAND [bramka_nand_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/mateu/bramka/test_isim_beh.exe
+Fuse Memory Usage: 30524 KB
+Fuse CPU Usage: 390 ms

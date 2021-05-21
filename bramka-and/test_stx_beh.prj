@@ -1,0 +1,2 @@
+vhdl isim_temp "bramka_NAND.vhd"
+vhdl isim_temp "test.vhd"

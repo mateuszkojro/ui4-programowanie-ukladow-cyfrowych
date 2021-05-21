@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/mateu/bramka/bramka_NAND.xst" -ofn "C:/Users/mateu/bramka/bramka_NAND.syr" 
