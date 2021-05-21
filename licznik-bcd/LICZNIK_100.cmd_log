@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LicznikBCD/LICZNIK_100.xst" -ofn "C:/Users/mateu/LicznikBCD/LICZNIK_100.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 LICZNIK_100.ngc LICZNIK_100.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LICZNIK_100_map.ncd LICZNIK_100.ngd LICZNIK_100.pcf 
+par -w -intstyle ise -ol high -mt off LICZNIK_100_map.ncd LICZNIK_100.ncd LICZNIK_100.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LICZNIK_100.twx LICZNIK_100.ncd -o LICZNIK_100.twr LICZNIK_100.pcf 
+bitgen -intstyle ise -f LICZNIK_100.ut LICZNIK_100.ncd 

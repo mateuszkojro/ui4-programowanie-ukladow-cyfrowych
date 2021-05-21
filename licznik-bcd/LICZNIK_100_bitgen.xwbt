@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mateu\LicznikBCD\LICZNIK_100.ncd
+OUTFILE=C:\Users\mateu\LicznikBCD\LICZNIK_100.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\mateu\LicznikBCD
+LICENSE=WebPack
+USER_INFO=212176094_0_0_035

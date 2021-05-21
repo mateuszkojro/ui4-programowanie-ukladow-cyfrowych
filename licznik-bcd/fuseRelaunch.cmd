@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/mateu/LicznikBCD/test_100_isim_beh.exe" -prj "C:/Users/mateu/LicznikBCD/test_100_beh.prj" "work.test_100" 

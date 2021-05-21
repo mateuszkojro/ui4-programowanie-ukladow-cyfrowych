@@ -1,0 +1,29 @@
+Command line:
+   LICZNIK_100_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53753
+
+Thu May 06 22:14:39 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.94 Meg
+
+ Total Signals          : 10
+ Total Nets             : 22
+ Total Signal Drivers   : 8
+ Total Blocks           : 5
+ Total Primitive Blocks : 5
+ Total Processes        : 6
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 523
+Total Line Count : 21
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5150.94 Meg
+
+Thu May 06 22:14:47 2021
+
