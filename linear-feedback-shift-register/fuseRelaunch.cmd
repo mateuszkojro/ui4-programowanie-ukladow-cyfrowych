@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/mateu/LinearFeedbackShiftRegister/test_isim_beh.exe" -prj "C:/Users/mateu/LinearFeedbackShiftRegister/test_beh.prj" "work.test" 

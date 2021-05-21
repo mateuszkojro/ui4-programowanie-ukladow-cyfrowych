@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mateu\LinearFeedbackShiftRegister\LFSR.ncd
+OUTFILE=C:\Users\mateu\LinearFeedbackShiftRegister\LFSR.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\mateu\LinearFeedbackShiftRegister
+LICENSE=WebPack
+USER_INFO=212176094_0_0_035

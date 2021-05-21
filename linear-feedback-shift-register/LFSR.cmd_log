@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.xst" -ofn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.xst" -ofn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.xst" -ofn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 LFSR.ngc LFSR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LFSR_map.ncd LFSR.ngd LFSR.pcf 
+par -w -intstyle ise -ol high -mt off LFSR_map.ncd LFSR.ncd LFSR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LFSR.twx LFSR.ncd -o LFSR.twr LFSR.pcf 
+bitgen -intstyle ise -f LFSR.ut LFSR.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.xst" -ofn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.xst" -ofn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.xst" -ofn "C:/Users/mateu/LinearFeedbackShiftRegister/LFSR.syr" 
