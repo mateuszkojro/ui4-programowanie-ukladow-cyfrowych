@@ -37,34 +37,35 @@ Setup/Hold to clock clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-reset       |   -0.236(R)|      FAST  |    2.357(R)|      SLOW  |clk_BUFGP         |   0.000|
-            |    0.317(F)|      FAST  |    1.507(F)|      SLOW  |clk_BUFGP         |   0.000|
+reset       |    0.011(R)|      FAST  |    2.192(R)|      SLOW  |clk_BUFGP         |   0.000|
+            |    1.210(F)|      FAST  |    0.410(F)|      SLOW  |clk_BUFGP         |   0.000|
+stop_klatka |   -0.335(R)|      FAST  |    2.356(R)|      SLOW  |clk_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
-------------+-----------------+------------+-----------------+------------+------------------+--------+
-            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
-Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
-------------+-----------------+------------+-----------------+------------+------------------+--------+
-koniec<0>   |        10.903(R)|      SLOW  |         3.878(R)|      FAST  |clk_BUFGP         |   0.000|
-koniec<1>   |        11.110(R)|      SLOW  |         4.023(R)|      FAST  |clk_BUFGP         |   0.000|
-koniec<2>   |        10.905(R)|      SLOW  |         3.892(R)|      FAST  |clk_BUFGP         |   0.000|
-koniec<3>   |        11.307(R)|      SLOW  |         3.988(R)|      FAST  |clk_BUFGP         |   0.000|
-koniec<4>   |        11.067(R)|      SLOW  |         3.848(R)|      FAST  |clk_BUFGP         |   0.000|
-koniec<5>   |        11.571(R)|      SLOW  |         4.145(R)|      FAST  |clk_BUFGP         |   0.000|
-koniec<6>   |        11.236(R)|      SLOW  |         4.076(R)|      FAST  |clk_BUFGP         |   0.000|
-------------+-----------------+------------+-----------------+------------+------------------+--------+
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
+wyswietlacz<0>|        11.767(R)|      SLOW  |         4.178(R)|      FAST  |clk_BUFGP         |   0.000|
+wyswietlacz<1>|        11.961(R)|      SLOW  |         4.216(R)|      FAST  |clk_BUFGP         |   0.000|
+wyswietlacz<2>|        11.599(R)|      SLOW  |         3.972(R)|      FAST  |clk_BUFGP         |   0.000|
+wyswietlacz<3>|        12.306(R)|      SLOW  |         4.271(R)|      FAST  |clk_BUFGP         |   0.000|
+wyswietlacz<4>|        11.693(R)|      SLOW  |         4.031(R)|      FAST  |clk_BUFGP         |   0.000|
+wyswietlacz<5>|        12.133(R)|      SLOW  |         4.409(R)|      FAST  |clk_BUFGP         |   0.000|
+wyswietlacz<6>|        12.259(R)|      SLOW  |         4.267(R)|      FAST  |clk_BUFGP         |   0.000|
+--------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    1.795|         |         |    2.863|
+clk            |    1.688|         |         |    2.872|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri May 14 10:42:13 2021 
+Analysis completed Fri May 21 09:32:11 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:

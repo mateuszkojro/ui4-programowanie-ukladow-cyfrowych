@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd" into library work
+Parsing VHDL file "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd" into library work
 Parsing entity <test00>.
 Parsing architecture <Behavioral> of entity <test00>.
 
@@ -114,18 +114,18 @@ Parsing architecture <Behavioral> of entity <test00>.
 =========================================================================
 
 Elaborating entity <test00> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd" Line 77: clk should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd" Line 96: clk should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd" Line 119: clk should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd" Line 142: clk should be on the sensitivity list of the process
-WARNING:HDLCompiler:794 - "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd" Line 189: Statement might not cover all choices ; 'others' clause recommended
+WARNING:HDLCompiler:92 - "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd" Line 85: clk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd" Line 104: clk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd" Line 127: clk should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd" Line 150: clk should be on the sensitivity list of the process
+WARNING:HDLCompiler:794 - "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd" Line 231: Statement might not cover all choices ; 'others' clause recommended
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <test00>.
-    Related source file is "C:\Users\mateu\Downloads\wyswietlacz\test00.vhd".
+    Related source file is "C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.vhd".
 WARNING:Xst:647 - Input <licznik_sek> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <licznik_sek_10> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <licznik_min> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -134,28 +134,32 @@ WARNING:Xst:647 - Input <licznik_min_10> is never used. This port will be preser
     Found 4-bit register for signal <cs10>.
     Found 4-bit register for signal <cs100>.
     Found 4-bit register for signal <cs1000>.
-    Found 2-bit register for signal <poz_licz>.
+    Found 4-bit register for signal <out1>.
+    Found 4-bit register for signal <out10>.
+    Found 4-bit register for signal <out100>.
+    Found 4-bit register for signal <out1000>.
+    Found 3-bit register for signal <poz_licz>.
     Found 16-bit register for signal <_v2>.
     Found 1-bit register for signal <p_clk>.
     Found 1-bit register for signal <enable1>.
     Found 1-bit register for signal <enable2>.
     Found 1-bit register for signal <enable3>.
-    Found 16-bit adder for signal <dzielnik[15]_GND_6_o_add_0_OUT> created at line 48.
-    Found 4-bit adder for signal <cs1[3]_GND_6_o_add_9_OUT> created at line 78.
-    Found 4-bit adder for signal <cs10[3]_GND_6_o_add_14_OUT> created at line 101.
-    Found 4-bit adder for signal <cs100[3]_GND_6_o_add_20_OUT> created at line 124.
-    Found 4-bit adder for signal <cs1000[3]_GND_6_o_add_26_OUT> created at line 144.
-    Found 2-bit adder for signal <poz_licz[1]_GND_6_o_add_31_OUT> created at line 162.
-    Found 4x4-bit Read Only RAM for signal <wlacznik>
-    Found 16x7-bit Read Only RAM for signal <koniec>
-    Found 1-bit 4-to-1 multiplexer for signal <wejscie_dekodera<3>> created at line 189.
-    Found 1-bit 4-to-1 multiplexer for signal <wejscie_dekodera<2>> created at line 189.
-    Found 1-bit 4-to-1 multiplexer for signal <wejscie_dekodera<1>> created at line 189.
-    Found 1-bit 4-to-1 multiplexer for signal <wejscie_dekodera<0>> created at line 189.
+    Found 16-bit adder for signal <dzielnik[15]_GND_6_o_add_0_OUT> created at line 56.
+    Found 4-bit adder for signal <cs1[3]_GND_6_o_add_9_OUT> created at line 86.
+    Found 4-bit adder for signal <cs10[3]_GND_6_o_add_14_OUT> created at line 109.
+    Found 4-bit adder for signal <cs100[3]_GND_6_o_add_20_OUT> created at line 132.
+    Found 4-bit adder for signal <cs1000[3]_GND_6_o_add_26_OUT> created at line 152.
+    Found 3-bit adder for signal <poz_licz[2]_GND_6_o_add_39_OUT> created at line 195.
+    Found 8x8-bit Read Only RAM for signal <wlacznik>
+    Found 16x7-bit Read Only RAM for signal <wyswietlacz>
+    Found 1-bit 8-to-1 multiplexer for signal <wejscie_dekodera<3>> created at line 231.
+    Found 1-bit 8-to-1 multiplexer for signal <wejscie_dekodera<2>> created at line 231.
+    Found 1-bit 8-to-1 multiplexer for signal <wejscie_dekodera<1>> created at line 231.
+    Found 1-bit 8-to-1 multiplexer for signal <wejscie_dekodera<0>> created at line 231.
     Summary:
 	inferred   2 RAM(s).
 	inferred   6 Adder/Subtractor(s).
-	inferred  38 D-type flip-flop(s).
+	inferred  55 D-type flip-flop(s).
 	inferred   9 Multiplexer(s).
 Unit <test00> synthesized.
 
@@ -165,18 +169,18 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 2
  16x7-bit single-port Read Only RAM                    : 1
- 4x4-bit single-port Read Only RAM                     : 1
+ 8x8-bit single-port Read Only RAM                     : 1
 # Adders/Subtractors                                   : 6
  16-bit adder                                          : 1
- 2-bit adder                                           : 1
+ 3-bit adder                                           : 1
  4-bit adder                                           : 4
-# Registers                                            : 10
+# Registers                                            : 14
  1-bit register                                        : 4
  16-bit register                                       : 1
- 2-bit register                                        : 1
- 4-bit register                                        : 4
+ 3-bit register                                        : 1
+ 4-bit register                                        : 8
 # Multiplexers                                         : 9
- 1-bit 4-to-1 multiplexer                              : 4
+ 1-bit 8-to-1 multiplexer                              : 4
  16-bit 2-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 4
 
@@ -189,8 +193,8 @@ Macro Statistics
 
 Synthesizing (advanced) Unit <test00>.
 The following registers are absorbed into counter <cs1>: 1 register on signal <cs1>.
-The following registers are absorbed into counter <cs100>: 1 register on signal <cs100>.
 The following registers are absorbed into counter <cs10>: 1 register on signal <cs10>.
+The following registers are absorbed into counter <cs100>: 1 register on signal <cs100>.
 The following registers are absorbed into counter <cs1000>: 1 register on signal <cs1000>.
 The following registers are absorbed into counter <poz_licz>: 1 register on signal <poz_licz>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_wlacznik> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -198,13 +202,13 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_wlacznik> will be implemented on LUT
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
     | Port A                                                              |
-    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
     |     weA            | connected to signal <GND>           | high     |
     |     addrA          | connected to signal <poz_licz>      |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to signal <wlacznik>      |          |
     -----------------------------------------------------------------------
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_koniec> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_wyswietlacz> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -213,7 +217,7 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_koniec> will be implemented on LUTs 
     |     weA            | connected to signal <GND>           | high     |
     |     addrA          | connected to signal <wejscie_dekodera> |          |
     |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to signal <koniec>        |          |
+    |     doA            | connected to signal <wyswietlacz>   |          |
     -----------------------------------------------------------------------
 Unit <test00> synthesized (advanced).
 
@@ -223,16 +227,16 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 2
  16x7-bit single-port distributed Read Only RAM        : 1
- 4x4-bit single-port distributed Read Only RAM         : 1
+ 8x8-bit single-port distributed Read Only RAM         : 1
 # Adders/Subtractors                                   : 1
  16-bit adder                                          : 1
 # Counters                                             : 5
- 2-bit up counter                                      : 1
+ 3-bit up counter                                      : 1
  4-bit up counter                                      : 4
-# Registers                                            : 20
- Flip-Flops                                            : 20
+# Registers                                            : 36
+ Flip-Flops                                            : 36
 # Multiplexers                                         : 5
- 1-bit 4-to-1 multiplexer                              : 4
+ 1-bit 8-to-1 multiplexer                              : 4
  16-bit 2-to-1 multiplexer                             : 1
 
 =========================================================================
@@ -253,8 +257,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 38
- Flip-Flops                                            : 38
+# Registers                                            : 55
+ Flip-Flops                                            : 55
 
 =========================================================================
 
@@ -277,29 +281,30 @@ Top Level Output File Name         : test00.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 103
+# BELS                             : 116
 #      GND                         : 1
 #      INV                         : 7
 #      LUT1                        : 14
-#      LUT2                        : 6
-#      LUT3                        : 4
+#      LUT2                        : 2
+#      LUT3                        : 13
 #      LUT4                        : 20
 #      LUT5                        : 1
-#      LUT6                        : 18
+#      LUT6                        : 22
 #      MUXCY                       : 15
+#      MUXF7                       : 4
 #      VCC                         : 1
 #      XORCY                       : 16
-# FlipFlops/Latches                : 38
+# FlipFlops/Latches                : 55
 #      FD                          : 3
-#      FDC                         : 6
+#      FDC                         : 7
 #      FDC_1                       : 16
-#      FDCE                        : 12
+#      FDCE                        : 28
 #      FDE_1                       : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 12
-#      IBUF                        : 1
-#      OBUF                        : 11
+# IO Buffers                       : 17
+#      IBUF                        : 2
+#      OBUF                        : 15
 
 Device utilization summary:
 ---------------------------
@@ -308,20 +313,20 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              38  out of  126800     0%  
- Number of Slice LUTs:                   70  out of  63400     0%  
-    Number used as Logic:                70  out of  63400     0%  
+ Number of Slice Registers:              55  out of  126800     0%  
+ Number of Slice LUTs:                   79  out of  63400     0%  
+    Number used as Logic:                79  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     70
-   Number with an unused Flip Flop:      32  out of     70    45%  
-   Number with an unused LUT:             0  out of     70     0%  
-   Number of fully used LUT-FF pairs:    38  out of     70    54%  
-   Number of unique control sets:         7
+ Number of LUT Flip Flop pairs used:     86
+   Number with an unused Flip Flop:      31  out of     86    36%  
+   Number with an unused LUT:             7  out of     86     8%  
+   Number of fully used LUT-FF pairs:    48  out of     86    55%  
+   Number of unique control sets:         8
 
 IO Utilization: 
- Number of IOs:                          29
- Number of bonded IOBs:                  13  out of    210     6%  
+ Number of IOs:                          34
+ Number of bonded IOBs:                  18  out of    210     8%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
@@ -347,8 +352,8 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 36    |
-p_clk                              | NONE(poz_licz_0)       | 2     |
+clk                                | BUFGP                  | 52    |
+p_clk                              | NONE(poz_licz_0)       | 3     |
 -----------------------------------+------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -361,8 +366,8 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 2.844ns (Maximum Frequency: 351.617MHz)
-   Minimum input arrival time before clock: 1.378ns
-   Maximum output required time after clock: 2.153ns
+   Minimum input arrival time before clock: 1.381ns
+   Maximum output required time after clock: 2.469ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -372,7 +377,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 2.844ns (frequency: 351.617MHz)
-  Total number of paths / destination ports: 1110 / 49
+  Total number of paths / destination ports: 1126 / 65
 -------------------------------------------------------------------------
 Delay:               2.844ns (Levels of Logic = 12)
   Source:            _i000009_0 (FF)
@@ -404,10 +409,10 @@ Delay:               2.844ns (Levels of Logic = 12)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'p_clk'
-  Clock period: 1.082ns (frequency: 924.300MHz)
-  Total number of paths / destination ports: 3 / 2
+  Clock period: 1.124ns (frequency: 889.759MHz)
+  Total number of paths / destination ports: 6 / 3
 -------------------------------------------------------------------------
-Delay:               1.082ns (Levels of Logic = 1)
+Delay:               1.124ns (Levels of Logic = 1)
   Source:            poz_licz_0 (FF)
   Destination:       poz_licz_0 (FF)
   Source Clock:      p_clk falling
@@ -417,18 +422,18 @@ Delay:               1.082ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             10   0.361   0.321  poz_licz_0 (poz_licz_0)
+     FDC:C->Q             19   0.361   0.363  poz_licz_0 (poz_licz_0)
      INV:I->O              1   0.113   0.279  Mcount_poz_licz_xor<0>11_INV_0 (Result<0>)
      FDC:D                     0.008          poz_licz_0
     ----------------------------------------
-    Total                      1.082ns (0.482ns logic, 0.600ns route)
-                                       (44.6% logic, 55.4% route)
+    Total                      1.124ns (0.482ns logic, 0.642ns route)
+                                       (42.9% logic, 57.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 36 / 36
+  Total number of paths / destination ports: 68 / 68
 -------------------------------------------------------------------------
-Offset:              1.378ns (Levels of Logic = 3)
+Offset:              1.381ns (Levels of Logic = 3)
   Source:            reset (PAD)
   Destination:       p_clk (FF)
   Destination Clock: clk falling
@@ -437,19 +442,19 @@ Offset:              1.378ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            38   0.001   0.664  reset_IBUF (reset_IBUF)
+     IBUF:I->O            55   0.001   0.667  reset_IBUF (reset_IBUF)
      LUT4:I0->O            1   0.097   0.511  PWR_6_o_dzielnik[15]_equal_2_o<15>3_rstpot_SW0 (N18)
      LUT6:I3->O            1   0.097   0.000  p_clk_dpot1 (p_clk_dpot1)
      FDE_1:D                   0.008          p_clk
     ----------------------------------------
-    Total                      1.378ns (0.203ns logic, 1.175ns route)
+    Total                      1.381ns (0.203ns logic, 1.178ns route)
                                        (14.7% logic, 85.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'p_clk'
-  Total number of paths / destination ports: 2 / 2
+  Total number of paths / destination ports: 3 / 3
 -------------------------------------------------------------------------
-Offset:              0.737ns (Levels of Logic = 1)
+Offset:              0.740ns (Levels of Logic = 1)
   Source:            reset (PAD)
   Destination:       poz_licz_0 (FF)
   Destination Clock: p_clk falling
@@ -458,53 +463,55 @@ Offset:              0.737ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            38   0.001   0.387  reset_IBUF (reset_IBUF)
+     IBUF:I->O            55   0.001   0.390  reset_IBUF (reset_IBUF)
      FDC:CLR                   0.349          poz_licz_0
     ----------------------------------------
-    Total                      0.737ns (0.350ns logic, 0.387ns route)
-                                       (47.5% logic, 52.5% route)
+    Total                      0.740ns (0.350ns logic, 0.390ns route)
+                                       (47.3% logic, 52.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'p_clk'
-  Total number of paths / destination ports: 64 / 11
+  Total number of paths / destination ports: 164 / 15
 -------------------------------------------------------------------------
-Offset:              2.153ns (Levels of Logic = 3)
-  Source:            poz_licz_0 (FF)
-  Destination:       koniec<6> (PAD)
+Offset:              2.469ns (Levels of Logic = 4)
+  Source:            poz_licz_1 (FF)
+  Destination:       wyswietlacz<6> (PAD)
   Source Clock:      p_clk falling
 
-  Data Path: poz_licz_0 to koniec<6>
+  Data Path: poz_licz_1 to wyswietlacz<6>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             10   0.361   0.735  poz_licz_0 (poz_licz_0)
-     LUT6:I0->O            7   0.097   0.584  Mmux_wejscie_dekodera<3>11 (wejscie_dekodera<3>)
-     LUT4:I0->O            1   0.097   0.279  Mram_koniec31 (koniec_3_OBUF)
-     OBUF:I->O                 0.000          koniec_3_OBUF (koniec<3>)
+     FDC:C->Q             18   0.361   0.772  poz_licz_1 (poz_licz_1)
+     LUT6:I0->O            1   0.097   0.000  Mmux_wejscie_dekodera<3>_3 (Mmux_wejscie_dekodera<3>_3)
+     MUXF7:I1->O           7   0.279   0.584  Mmux_wejscie_dekodera<3>_2_f7 (wejscie_dekodera<3>)
+     LUT4:I0->O            1   0.097   0.279  Mram_wyswietlacz21 (wyswietlacz_2_OBUF)
+     OBUF:I->O                 0.000          wyswietlacz_2_OBUF (wyswietlacz<2>)
     ----------------------------------------
-    Total                      2.153ns (0.555ns logic, 1.598ns route)
-                                       (25.8% logic, 74.2% route)
+    Total                      2.469ns (0.834ns logic, 1.635ns route)
+                                       (33.8% logic, 66.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 112 / 7
+  Total number of paths / destination ports: 224 / 7
 -------------------------------------------------------------------------
-Offset:              1.998ns (Levels of Logic = 3)
-  Source:            cs10_0 (FF)
-  Destination:       koniec<2> (PAD)
+Offset:              2.275ns (Levels of Logic = 4)
+  Source:            cs100_1 (FF)
+  Destination:       wyswietlacz<6> (PAD)
   Source Clock:      clk rising
 
-  Data Path: cs10_0 to koniec<2>
+  Data Path: cs100_1 to wyswietlacz<6>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             6   0.361   0.579  cs10_0 (cs10_0)
-     LUT6:I2->O            7   0.097   0.584  Mmux_wejscie_dekodera<0>11 (wejscie_dekodera<0>)
-     LUT4:I0->O            1   0.097   0.279  Mram_koniec21 (koniec_2_OBUF)
-     OBUF:I->O                 0.000          koniec_2_OBUF (koniec<2>)
+     FDCE:C->Q             6   0.361   0.579  cs100_1 (cs100_1)
+     LUT6:I2->O            1   0.097   0.000  Mmux_wejscie_dekodera<1>_4 (Mmux_wejscie_dekodera<1>_4)
+     MUXF7:I0->O           7   0.277   0.584  Mmux_wejscie_dekodera<1>_2_f7 (wejscie_dekodera<1>)
+     LUT4:I0->O            1   0.097   0.279  Mram_wyswietlacz41 (wyswietlacz_4_OBUF)
+     OBUF:I->O                 0.000          wyswietlacz_4_OBUF (wyswietlacz<4>)
     ----------------------------------------
-    Total                      1.998ns (0.555ns logic, 1.443ns route)
-                                       (27.8% logic, 72.2% route)
+    Total                      2.275ns (0.832ns logic, 1.443ns route)
+                                       (36.6% logic, 63.4% route)
 
 =========================================================================
 
@@ -516,7 +523,7 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    1.513|         |    2.844|         |
+clk            |    1.518|         |    2.844|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock p_clk
@@ -524,18 +531,18 @@ Clock to Setup on destination clock p_clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-p_clk          |         |         |    1.082|         |
+p_clk          |         |         |    1.124|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 9.15 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.73 secs
  
 --> 
 
-Total memory usage is 4690208 kilobytes
+Total memory usage is 4693472 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    9 (   0 filtered)

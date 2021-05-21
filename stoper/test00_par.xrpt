@@ -5,14 +5,14 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="par" timeStamp="Fri May 14 10:41:52 2021">
+  <application stringID="par" timeStamp="Fri May 21 09:31:48 2021">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\PlanAhead\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnuwin\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\lib\nt64;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mateu\Documents\soft\LLVM\bin;C:\Users\mateu\Documents\soft\Git\cmd;C:\Users\mateu\Documents\soft\Git LFS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mateu\Documents\lib\lua\5.1;C:\Users\mateu\Documents\lib\lua\5.1\clibs;C:\Users\mateu\AppData\Local\Microsoft\WindowsApps;C:\Users\mateu\Documents\soft\CLion 2021.1.1\bin;C:\Users\mateu\Documents\soft\Microsoft VS Code\bin;C:\Users\mateu\Documents\soft\cmake-3.20.0-rc5-windows-x86_64\bin;C:\Users\mateu\Documents\soft\ninja-win;C:\Users\mateu\AppData\Roaming\npm;C:\Qt\Tools\mingw810_64\bin;C:/testOpencv/OpenCV-MinGW-Build/x64/mingw/bin;C:\opencv\install\x64\mingw\bin;C:\tools\neovim\Neovim\bin"/>
+          <item stringID="value" value="C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\PlanAhead\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnuwin\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\lib\nt64;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mateu\Documents\soft\LLVM\bin;C:\Users\mateu\Documents\soft\Git\cmd;C:\Users\mateu\Documents\soft\Git LFS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mateu\Documents\lib\lua\5.1;C:\Users\mateu\Documents\lib\lua\5.1\clibs;C:\Users\mateu\AppData\Local\Microsoft\WindowsApps;C:\Users\mateu\Documents\soft\CLion 2021.1.1\bin;C:\Users\mateu\Documents\soft\Microsoft VS Code\bin;C:\Users\mateu\Documents\soft\cmake-3.20.0-rc5-windows-x86_64\bin;C:\Users\mateu\Documents\soft\ninja-win;C:\Users\mateu\AppData\Roaming\npm;C:\Qt\Tools\mingw810_64\bin;C:/testOpencv/OpenCV-MinGW-Build/x64/mingw/bin;C:\opencv\install\x64\mingw\bin;C:\tools\neovim\Neovim\bin;C:\Users\mateu\Documents\soft\IntelliJ IDEA 2021.1.1\bin;C:\Users\mateu\Documents\soft\JetBrains Rider 2021.1.2\bin;C:\Users\mateu\.dotnet\tools"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -63,12 +63,12 @@
     </task>
     <task stringID="PAR_PAR">
       <section stringID="PAR_DESIGN_SUMMARY">
-        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="16 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="16 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_ROUTER" value="18 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_ROUTER" value="18 secs "/>
         <item dataType="int" stringID="PAR_UNROUTES" value="0"/>
         <item dataType="float" stringID="PAR_TIMING_SCORE" value="0.000000"/>
-        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="17 secs "/>
-        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="16 secs "/>
+        <item stringID="PAR_REAL_TIME_COMPLETION_PAR" value="18 secs "/>
+        <item stringID="PAR_CPU_TIME_COMPLETION_PAR" value="18 secs "/>
       </section>
     </task>
     <task stringID="PAR_par">
@@ -1135,10 +1135,17 @@
           </row>
           <row stringID="row" value="164">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="K2"/>
-            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33M"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wlacznik&lt;6>"/>
+            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L23P_T3_35"/>
-            <item stringID="Direction" value="UNUSED"/>
+            <item stringID="Direction" value="OUTPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_Standard" value="LVCMOS33"/>
             <item label="IO Bank&#xA;Number" stringID="IO_Bank_Number" value="35"/>
+            <item label="Drive&#xA;(mA)" stringID="Drive" value="12"/>
+            <item label="Slew&#xA;Rate" stringID="Slew_Rate" value="SLOW"/>
+            <item label="Constraint" stringID="Constraint" value="LOCATED"/>
+            <item label="IO&#xA;Register" stringID="IO_Register" value="NO"/>
+            <item label="Signal&#xA;Integrity" stringID="Signal_Integrity" value="NONE"/>
           </row>
           <row stringID="row" value="165">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="K3"/>
@@ -1198,7 +1205,7 @@
           </row>
           <row stringID="row" value="175">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="K13"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;3>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;3>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L17P_T2_A26_15"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1225,7 +1232,7 @@
           </row>
           <row stringID="row" value="178">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="K16"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;4>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;4>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_25_15"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1358,7 +1365,7 @@
           </row>
           <row stringID="row" value="198">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="L18"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;0>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;0>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L4P_T0_D04_14"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1578,7 +1585,7 @@
           </row>
           <row stringID="row" value="233">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="N17"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="reset"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="stop_klatka"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L9P_T1_DQS_14"/>
             <item stringID="Direction" value="INPUT"/>
@@ -1661,14 +1668,21 @@
           </row>
           <row stringID="row" value="248">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="P14"/>
-            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33S"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wlacznik&lt;4>"/>
+            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L8N_T1_D12_14"/>
-            <item stringID="Direction" value="UNUSED"/>
+            <item stringID="Direction" value="OUTPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_Standard" value="LVCMOS33"/>
             <item label="IO Bank&#xA;Number" stringID="IO_Bank_Number" value="14"/>
+            <item label="Drive&#xA;(mA)" stringID="Drive" value="12"/>
+            <item label="Slew&#xA;Rate" stringID="Slew_Rate" value="SLOW"/>
+            <item label="Constraint" stringID="Constraint" value="LOCATED"/>
+            <item label="IO&#xA;Register" stringID="IO_Register" value="NO"/>
+            <item label="Signal&#xA;Integrity" stringID="Signal_Integrity" value="NONE"/>
           </row>
           <row stringID="row" value="249">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="P15"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;2>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;2>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L13P_T2_MRCC_14"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1695,10 +1709,16 @@
           </row>
           <row stringID="row" value="252">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="P18"/>
-            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33S"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="reset"/>
+            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L9N_T1_DQS_D13_14"/>
-            <item stringID="Direction" value="UNUSED"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_Standard" value="LVCMOS33"/>
             <item label="IO Bank&#xA;Number" stringID="IO_Bank_Number" value="14"/>
+            <item label="IOB&#xA;Delay" stringID="IOB_Delay" value="NONE"/>
+            <item label="Constraint" stringID="Constraint" value="LOCATED"/>
+            <item label="IO&#xA;Register" stringID="IO_Register" value="NO"/>
+            <item label="Signal&#xA;Integrity" stringID="Signal_Integrity" value="NONE"/>
           </row>
           <row stringID="row" value="253">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="R1"/>
@@ -1761,7 +1781,7 @@
           </row>
           <row stringID="row" value="262">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="R10"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;5>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;5>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_25_14"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1924,7 +1944,7 @@
           </row>
           <row stringID="row" value="280">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="T10"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;6>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;6>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L24N_T3_A00_D16_14"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1938,7 +1958,7 @@
           </row>
           <row stringID="row" value="281">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="T11"/>
-            <item label="Signal&#xA;Name" stringID="Signal_Name" value="koniec&lt;1>"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wyswietlacz&lt;1>"/>
             <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L19P_T3_A10_D26_14"/>
             <item stringID="Direction" value="OUTPUT"/>
@@ -1971,10 +1991,17 @@
           </row>
           <row stringID="row" value="284">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="T14"/>
-            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33M"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wlacznik&lt;5>"/>
+            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L14P_T2_SRCC_14"/>
-            <item stringID="Direction" value="UNUSED"/>
+            <item stringID="Direction" value="OUTPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_Standard" value="LVCMOS33"/>
             <item label="IO Bank&#xA;Number" stringID="IO_Bank_Number" value="14"/>
+            <item label="Drive&#xA;(mA)" stringID="Drive" value="12"/>
+            <item label="Slew&#xA;Rate" stringID="Slew_Rate" value="SLOW"/>
+            <item label="Constraint" stringID="Constraint" value="LOCATED"/>
+            <item label="IO&#xA;Register" stringID="IO_Register" value="NO"/>
+            <item label="Signal&#xA;Integrity" stringID="Signal_Integrity" value="NONE"/>
           </row>
           <row stringID="row" value="285">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="T15"/>
@@ -2107,10 +2134,17 @@
           </row>
           <row stringID="row" value="301">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="U13"/>
-            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33S"/>
+            <item label="Signal&#xA;Name" stringID="Signal_Name" value="wlacznik&lt;7>"/>
+            <item label="Pin&#xA;Usage" stringID="Pin_Usage" value="IOB33"/>
             <item label="Pin&#xA;Name" sort="smart" stringID="Pin_Name" value="IO_L23N_T3_A02_D18_14"/>
-            <item stringID="Direction" value="UNUSED"/>
+            <item stringID="Direction" value="OUTPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_Standard" value="LVCMOS33"/>
             <item label="IO Bank&#xA;Number" stringID="IO_Bank_Number" value="14"/>
+            <item label="Drive&#xA;(mA)" stringID="Drive" value="12"/>
+            <item label="Slew&#xA;Rate" stringID="Slew_Rate" value="SLOW"/>
+            <item label="Constraint" stringID="Constraint" value="LOCATED"/>
+            <item label="IO&#xA;Register" stringID="IO_Register" value="NO"/>
+            <item label="Signal&#xA;Integrity" stringID="Signal_Integrity" value="NONE"/>
           </row>
           <row stringID="row" value="302">
             <item label="Pin&#xA;Number" sort="smart" stringID="Pin_Number" value="U14"/>
@@ -2291,14 +2325,14 @@
     </task>
   </application>
 
-  <application stringID="Par" timeStamp="Fri May 14 10:41:53 2021">
+  <application stringID="Par" timeStamp="Fri May 21 09:31:48 2021">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\PlanAhead\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnuwin\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\lib\nt64;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mateu\Documents\soft\LLVM\bin;C:\Users\mateu\Documents\soft\Git\cmd;C:\Users\mateu\Documents\soft\Git LFS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mateu\Documents\lib\lua\5.1;C:\Users\mateu\Documents\lib\lua\5.1\clibs;C:\Users\mateu\AppData\Local\Microsoft\WindowsApps;C:\Users\mateu\Documents\soft\CLion 2021.1.1\bin;C:\Users\mateu\Documents\soft\Microsoft VS Code\bin;C:\Users\mateu\Documents\soft\cmake-3.20.0-rc5-windows-x86_64\bin;C:\Users\mateu\Documents\soft\ninja-win;C:\Users\mateu\AppData\Roaming\npm;C:\Qt\Tools\mingw810_64\bin;C:/testOpencv/OpenCV-MinGW-Build/x64/mingw/bin;C:\opencv\install\x64\mingw\bin;C:\tools\neovim\Neovim\bin"/>
+          <item stringID="value" value="C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\..\..\..\DocNav;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\PlanAhead\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\lib\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnuwin\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\arm\nt\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\bin\nt64;C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\common\lib\nt64;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\mateu\Documents\soft\LLVM\bin;C:\Users\mateu\Documents\soft\Git\cmd;C:\Users\mateu\Documents\soft\Git LFS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\mateu\Documents\lib\lua\5.1;C:\Users\mateu\Documents\lib\lua\5.1\clibs;C:\Users\mateu\AppData\Local\Microsoft\WindowsApps;C:\Users\mateu\Documents\soft\CLion 2021.1.1\bin;C:\Users\mateu\Documents\soft\Microsoft VS Code\bin;C:\Users\mateu\Documents\soft\cmake-3.20.0-rc5-windows-x86_64\bin;C:\Users\mateu\Documents\soft\ninja-win;C:\Users\mateu\AppData\Roaming\npm;C:\Qt\Tools\mingw810_64\bin;C:/testOpencv/OpenCV-MinGW-Build/x64/mingw/bin;C:\opencv\install\x64\mingw\bin;C:\tools\neovim\Neovim\bin;C:\Users\mateu\Documents\soft\IntelliJ IDEA 2021.1.1\bin;C:\Users\mateu\Documents\soft\JetBrains Rider 2021.1.2\bin;C:\Users\mateu\.dotnet\tools"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
@@ -2341,16 +2375,16 @@
     </section>
     <task label="Device Utilization Summary" stringID="PAR_DEVICE_UTLIZATION">
       <section stringID="PAR_SLICE_REPORTING">
-        <item AVAILABLE="126800" dataType="int" label="Number of Slice Registers" stringID="PAR_SLICE_REGISTERS" value="38">
-          <item dataType="int" stringID="PAR_NUM_SLICE_FF" value="38"/>
+        <item AVAILABLE="126800" dataType="int" label="Number of Slice Registers" stringID="PAR_SLICE_REGISTERS" value="55">
+          <item dataType="int" stringID="PAR_NUM_SLICE_FF" value="55"/>
           <item dataType="int" stringID="PAR_NUM_SLICE_LATCH" value="0"/>
           <item dataType="int" stringID="PAR_NUM_SLICE_LATCHTHRU" value="0"/>
           <item dataType="int" stringID="PAR_NUM_SLICE_LATCHLOGIC" value="0"/>
         </item>
-        <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTS" stringID="PAR_SLICE_LUTS" value="59">
+        <item AVAILABLE="63400" dataType="int" label="Number of Slice LUTS" stringID="PAR_SLICE_LUTS" value="73">
           <item dataType="int" stringID="PAR_NUM_LOGIC_O5ONLY" value="14"/>
-          <item dataType="int" stringID="PAR_NUM_LOGIC_O6ONLY" value="32"/>
-          <item dataType="int" stringID="PAR_NUM_LOGIC_O5ANDO6" value="12"/>
+          <item dataType="int" stringID="PAR_NUM_LOGIC_O6ONLY" value="35"/>
+          <item dataType="int" stringID="PAR_NUM_LOGIC_O5ANDO6" value="15"/>
           <item dataType="int" stringID="PAR_NUM_ROM_O5ONLY" value="0"/>
           <item dataType="int" stringID="PAR_NUM_ROM_O6ONLY" value="0"/>
           <item dataType="int" stringID="PAR_NUM_ROM_O5ANDO6" value="0"/>
@@ -2364,24 +2398,24 @@
           <item dataType="int" stringID="PAR_NUM_SRL_O6ONLY" value="0"/>
           <item dataType="int" stringID="PAR_NUM_SRL_O5ANDO6" value="0"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_EXO6" value="1"/>
-          <item dataType="int" stringID="PAR_NUM_LUT_RT_EXO5" value="0"/>
+          <item dataType="int" stringID="PAR_NUM_LUT_RT_EXO5" value="8"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_O5ANDO6" value="0"/>
-          <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_FLOP" value="0"/>
+          <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_FLOP" value="8"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_CARRY4" value="1"/>
           <item dataType="int" stringID="PAR_NUM_LUT_RT_DRIVES_OTHERS" value="0"/>
         </item>
-        <item AVAILABLE="15850" dataType="int" stringID="PAR_OCCUPIED_SLICES" value="21">
-          <item AVAILABLE="11100" dataType="int" stringID="PAR_NUM_SLICEL" value="21"/>
+        <item AVAILABLE="15850" dataType="int" stringID="PAR_OCCUPIED_SLICES" value="28">
+          <item AVAILABLE="11100" dataType="int" stringID="PAR_NUM_SLICEL" value="28"/>
           <item AVAILABLE="4750" dataType="int" stringID="PAR_NUM_SLICEM" value="0"/>
         </item>
-        <item dataType="int" stringID="PAR_OCCUPIED_LUT_AND_FF" value="59">
-          <item dataType="int" stringID="PAR_OCCUPIED_LUT_ONLY" value="25"/>
+        <item dataType="int" stringID="PAR_OCCUPIED_LUT_AND_FF" value="73">
+          <item dataType="int" stringID="PAR_OCCUPIED_LUT_ONLY" value="31"/>
           <item dataType="int" stringID="PAR_OCCUPIED_FF_ONLY" value="0"/>
-          <item dataType="int" stringID="PAR_OCCUPIED_FF_AND_LUT" value="34"/>
+          <item dataType="int" stringID="PAR_OCCUPIED_FF_AND_LUT" value="42"/>
         </item>
       </section>
       <section stringID="PAR_IOB_REPORTING">
-        <item AVAILABLE="210" dataType="int" stringID="PAR_AGG_BONDED_IO" value="29"/>
+        <item AVAILABLE="210" dataType="int" stringID="PAR_AGG_BONDED_IO" value="34"/>
         <item AVAILABLE="90" dataType="int" stringID="PAR_AGG_UNBONDED_IO" value="0"/>
         <item AVAILABLE="0" dataType="int" stringID="PAR_NUM_IOB_FF" value="0"/>
         <item AVAILABLE="0" dataType="int" stringID="PAR_NUM_IOB_LATCH" value="0"/>

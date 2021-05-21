@@ -6,7 +6,9 @@ C:\Users\mateu\Documents\soft\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.ex
 e -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3
 test00.ngc test00.ngd
 
-Reading NGO file "C:/Users/mateu/Downloads/wyswietlacz/test00.ngc" ...
+Reading NGO file
+"C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00
+.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,10 +30,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4440376 kilobytes
+Total memory usage is 4440504 kilobytes
 
 Writing NGD file "test00.ngd" ...
-Total REAL time to NGDBUILD completion:  5 sec
-Total CPU time to NGDBUILD completion:   5 sec
+Total REAL time to NGDBUILD completion:  6 sec
+Total CPU time to NGDBUILD completion:   6 sec
 
 Writing NGDBUILD log file "test00.bld"...

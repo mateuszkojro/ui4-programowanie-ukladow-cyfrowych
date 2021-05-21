@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\mateu\Downloads\wyswietlacz\test00.ncd
-OUTFILE=C:\Users\mateu\Downloads\wyswietlacz\test00.bit
+INFILE=C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.ncd
+OUTFILE=C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper\test00.bit
 FAMILY=Artix7
 PART=xc7a100t-3csg324
-WORKINGDIR=C:\Users\mateu\Downloads\wyswietlacz
+WORKINGDIR=C:\Users\mateu\Documents\work\ui4-programowanie-ukladow-cyfrowych\stoper
 LICENSE=WebPack
 USER_INFO=212176094_0_0_035
