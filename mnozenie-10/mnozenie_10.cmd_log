@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/mateu/mnozenie_10/mnozenie_10.xst" -ofn "C:/Users/mateu/mnozenie_10/mnozenie_10.syr" 

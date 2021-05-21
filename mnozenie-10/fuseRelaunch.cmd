@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/mateu/mnozenie_10/test_mnozenie_10_isim_beh.exe" -prj "C:/Users/mateu/mnozenie_10/test_mnozenie_10_beh.prj" "work.test_mnozenie_10" 
