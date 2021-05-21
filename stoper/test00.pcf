@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri May 14 10:41:38 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "licznik_sek_10<0>" LOCATE = SITE "R17" LEVEL 1;
+COMP "licznik_sek_10<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "licznik_sek_10<2>" LOCATE = SITE "U18" LEVEL 1;
+COMP "licznik_sek_10<3>" LOCATE = SITE "R13" LEVEL 1;
+COMP "wlacznik<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "wlacznik<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "wlacznik<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "wlacznik<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "koniec<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "koniec<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "koniec<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "koniec<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "koniec<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "licznik_min<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "koniec<5>" LOCATE = SITE "R10" LEVEL 1;
+COMP "licznik_min<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "licznik_sek<0>" LOCATE = SITE "J15" LEVEL 1;
+COMP "koniec<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "licznik_min<2>" LOCATE = SITE "R16" LEVEL 1;
+COMP "reset" LOCATE = SITE "N17" LEVEL 1;
+COMP "licznik_sek<1>" LOCATE = SITE "L16" LEVEL 1;
+COMP "licznik_min<3>" LOCATE = SITE "T13" LEVEL 1;
+COMP "licznik_sek<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "licznik_sek<3>" LOCATE = SITE "R15" LEVEL 1;
+COMP "licznik_min_10<0>" LOCATE = SITE "H6" LEVEL 1;
+COMP "licznik_min_10<1>" LOCATE = SITE "U12" LEVEL 1;
+COMP "licznik_min_10<2>" LOCATE = SITE "U11" LEVEL 1;
+COMP "licznik_min_10<3>" LOCATE = SITE "V10" LEVEL 1;
+SCHEMATIC END;
+
