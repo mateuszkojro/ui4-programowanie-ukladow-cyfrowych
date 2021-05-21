@@ -1,0 +1,29 @@
+Command line:
+   rejestr_pierscieniowy_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52849
+
+Thu Apr 22 20:21:58 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.13 Meg
+
+ Total Signals          : 3
+ Total Nets             : 10
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 370
+Total Line Count : 3
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5150.13 Meg
+
+Thu Apr 22 20:22:10 2021
+
