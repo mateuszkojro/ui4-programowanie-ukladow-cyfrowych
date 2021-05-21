@@ -1,0 +1,2 @@
+vhdl isim_temp "sumator.vhd"
+vhdl isim_temp "test_suma.vhd"

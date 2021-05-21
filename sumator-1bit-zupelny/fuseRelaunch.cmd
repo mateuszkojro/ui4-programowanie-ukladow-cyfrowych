@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/mateu/sumator_1bi_zupelny/test_suma_isim_beh.exe" -prj "C:/Users/mateu/sumator_1bi_zupelny/test_suma_beh.prj" "work.test_suma" 
