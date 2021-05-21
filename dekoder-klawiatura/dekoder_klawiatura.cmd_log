@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.xst" -ofn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.xst" -ofn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.xst" -ofn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.xst" -ofn "C:/Users/mateu/dekoder_klawiatura/dekoder_klawiatura.syr" 

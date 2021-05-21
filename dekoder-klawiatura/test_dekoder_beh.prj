@@ -1,0 +1,2 @@
+vhdl work "dekoder_klawiatura.vhd"
+vhdl work "test_dekoder.vhd"

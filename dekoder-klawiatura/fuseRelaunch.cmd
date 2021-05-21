@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/mateu/dekoder_klawiatura/test_dekoder_isim_beh.exe" -prj "C:/Users/mateu/dekoder_klawiatura/test_dekoder_beh.prj" "work.test_dekoder" 

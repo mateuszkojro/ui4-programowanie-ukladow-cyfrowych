@@ -1,0 +1,31 @@
+Command line:
+   test_dekoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59133
+
+Fri Apr 16 10:05:04 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5150.11 Meg
+
+ Total Signals          : 5
+ Total Nets             : 23
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 6
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 383
+In process dekoder_klawiatura.vhd:50 
+ Target Size 8 and source size 9 for array dimension 0 does not match. 
+
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5150.11 Meg
+
+Fri Apr 16 10:05:12 2021
+
