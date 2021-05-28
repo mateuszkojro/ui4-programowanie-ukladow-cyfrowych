@@ -76,3 +76,83 @@ map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -re
 par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
 bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
+xst -intstyle ise -ifn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.xst" -ofn "C:/Users/mateu/Documents/work/ui4-programowanie-ukladow-cyfrowych/stoper/test00.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc master.ucf -p xc7a100t-csg324-3 test00.ngc test00.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o test00_map.ncd test00.ngd test00.pcf 
+par -w -intstyle ise -ol high -mt off test00_map.ncd test00.ncd test00.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test00.twx test00.ncd -o test00.twr test00.pcf -ucf master.ucf 
+bitgen -intstyle ise -f test00.ut test00.ncd 
